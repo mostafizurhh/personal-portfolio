@@ -12,12 +12,16 @@ const Footer = () => {
                     Full-Stack Web Developer
                 </p>
                 <p>Copyright © 2022 - All right reserved</p>
+                <div className="flex mt-2">
+
+                    <a href='https://www.linkedin.com/in/syed-mostafizur-rahman/'>
+                        <TiSocialLinkedinCircular className='font-bold text-4xl'></TiSocialLinkedinCircular></a>
+
+                    <a href='https://github.com/mostafizurhh'>
+                        <TiSocialGithubCircular className='font-bold text-4xl' ></TiSocialGithubCircular></a>
+                </div>
             </div>
 
-            <div className="flex">
-                <TiSocialLinkedinCircular className='font-bold text-4xl'></TiSocialLinkedinCircular>
-                <TiSocialGithubCircular className='font-bold text-4xl' ></TiSocialGithubCircular>
-            </div>
 
         </footer>
     );

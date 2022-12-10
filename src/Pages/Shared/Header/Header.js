@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom';
 
 const Header = () => {
     return (
-        <div className="navbar bg-base-100">
+        <div className="navbar bg-base-100 mt-5 p-0">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -11,21 +11,21 @@ const Header = () => {
                     </label>
                     <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                         <li><NavLink to='/'>Home</NavLink></li>
-                        <li><NavLink to='/resume'>Resume</NavLink></li>
-                        <li><NavLink to='/contact'>Contact</NavLink></li>
+                        <li><NavLink to='/projects'>Projects</NavLink></li>
+                        <li><a href="https://form.jotform.com/223432459291356">Contact Me</a></li>
                     </ul>
                 </div>
-                <NavLink className="btn btn-ghost normal-case text-xl">Syed Mostafizur Rahman</NavLink>
+                <Link to='/' className="text-xl font-bold">Syed Mostafizur Rahman</Link>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">
                     <li><NavLink to='/'>Home</NavLink></li>
-                    <li><NavLink to='/resume'>Resume</NavLink></li>
-                    <li><NavLink to='/contact'>Contact</NavLink></li>
+                    <li><NavLink to='/projects'>Projects</NavLink></li>
+                    <li><a href="https://form.jotform.com/223432459291356">Contact Me</a></li>
                 </ul>
             </div>
             <div className="navbar-end">
-                <NavLink className="btn btn-accent animate-bounce">Resume</NavLink>
+                <a href='https://drive.google.com/file/d/1QCKUO1xTK_jOYIVoUmFEa6Yf8g8UiZwp/view?usp=sharing' className="btn btn-accent animate-pulse">Resume</a>
             </div>
         </div>
     );
