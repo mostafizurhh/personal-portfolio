@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div className='mt-10 card card-compact text-justify aos-animate aos-init' data-aos="flip-down" id='about'>
+        <div className='mt-10 font-bold text-xl text-justify aos-animate aos-init' data-aos="slide-up" id='about'>
             <h2 className='font-bold text-4xl mb-3'>About</h2>
             <p>
                 I can develop a fully responsive website by using REST APIs, Firebase Authentication, JWT Authentication, Online Payment System, Vanilla CSS, JavaScript, React, MongoDB, and the most popular CSS frameworks like Tailwind CSS, and BootStrap.<br /> <br />

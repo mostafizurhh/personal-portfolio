@@ -3,15 +3,9 @@ import { TiSocialLinkedinCircular, TiSocialGithubCircular } from "react-icons/ti
 
 const Footer = () => {
     return (
-        <footer className="footer footer-center py-5 bg-[#161231] text-white">
+        <footer className="footer footer-center py-5 bg-[#121B2F] text-white">
             <div>
-                <p className="font-bold text-xl">
-                    Syed Mostafizur Rahman
-                </p>
-                <p className="font-semibold text-lg">
-                    Full-Stack Web Developer
-                </p>
-                <p>Copyright © 2022 - All right reserved</p>
+                <p>Copyright © Syed Mostafizur Rahman - All right reserved </p>
                 <div className="flex mt-2">
 
                     <a href='https://www.linkedin.com/in/syed-mostafizur-rahman/'>
