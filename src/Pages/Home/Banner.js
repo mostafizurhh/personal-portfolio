@@ -1,18 +1,16 @@
 import React from 'react';
 import Me from '../Assets/me.png'
-import Bg from '../Assets/bg.png'
 
 const Banner = () => {
     return (
-        <div className="hero" style={{ backgroundImage: `url(${Bg}` }}>
-            <div className="hero-overlay bg-opacity-50"></div>
-            <div className="hero-content flex-row-reverse justify-between">
-                <img src={Me} alt='' className='w-3/4 translate-y-4  md:w-full translate-x-10 md:translate-x-80' />
-                <div className=''>
-                    <h1 className="md:text-4xl text-lg font-bold text-white translate-x-4 translate-y-28 md:-translate-x-48 capitalize"> An enthusiastic <br /> web developer</h1>
-                </div>
-            </div>
+
+        <div className=" my-6 flex justify-around items-center aos-init aos-animate" id='banner' data-aos="flip-left">
+
+            <h1 className='hidden md:block text-xl font-semibold md:text-4xl pl-5'> An enthusiastic <br /> web developer</h1>
+
+            <img src={Me} alt="" className='w-[280px] md:w-[550px] rounded-full ring' />
         </div>
+
     );
 };
 

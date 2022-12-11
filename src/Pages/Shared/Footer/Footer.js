@@ -3,7 +3,7 @@ import { TiSocialLinkedinCircular, TiSocialGithubCircular } from "react-icons/ti
 
 const Footer = () => {
     return (
-        <footer className="footer footer-center py-5 bg-primary text-primary-content">
+        <footer className="footer footer-center py-5 bg-[#161231] text-white">
             <div>
                 <p className="font-bold text-xl">
                     Syed Mostafizur Rahman
