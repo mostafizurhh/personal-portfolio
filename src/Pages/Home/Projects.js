@@ -6,81 +6,84 @@ import cover from '../Assets/cover-1.png'
 import download from '../Assets/download.jpeg'
 import typing from '../Assets/typing.png'
 import { Link } from 'react-router-dom';
+import PrimaryButton from './PrimaryButton';
 
 const Projects = () => {
     return (
-        <div className='mt-10' id='projects'>
+        <div className='py-10' id='projects'>
             <h2 className='font-bold text-4xl mb-5'>My Projects</h2>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
-                <div className="card card-compact border text-white bg-[#15213a] aos-init aos-animate " data-aos='fade-up'>
-                    <figure><img src={car} alt="car" className='h-[250px] w-full' /></figure>
+                <div className="card card-compact border text-white bg-[#15213a] aos-init aos-animate" data-aos='fade-up'>
+                    <figure><img src={car} alt="car" className='h-[250px] w-full transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-75' /></figure>
                     <div className="card-body text-justify">
                         <h2 className="card-title text-2xl">Simora Motors</h2>
-                        <p className='font-bold'>This is a full-stack website where MongoDB, ES6, React, Node.js, JWT and Firebase Authentication, and Stripe have been used. There are different routes for a Buyer, Seller, and Admin.</p>
+                        <p className='font-bold'>This is a full-stack web development site to buy/sell used cars.</p>
                         <div className="card-actions mt-3 justify-end">
                             <a href='https://simora-motors-client.web.app/'>
-                                <button className="btn btn-primary">Live Site</button></a>
-                            <Link to=''><button className='btn btn-primary'> See Details</button></Link>
+                                <PrimaryButton>Live Site</PrimaryButton>
+                            </a>
+                            <Link to=''><PrimaryButton>See Details</PrimaryButton></Link>
                         </div>
                     </div>
                 </div>
                 <div className="card card-compact border text-white bg-[#15213a] aos-init aos-animate" data-aos='fade-down-right'>
-                    <figure><img src={dental} alt="car" className='h-[250px] w-full' /></figure>
+                    <figure><img src={dental} alt="car" className='h-[250px] w-full transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-75' /></figure>
                     <div className="card-body text-justify">
                         <h2 className="card-title text-2xl">Simora Dental</h2>
-                        <p className='font-bold'>This is an example of a full-stack website where JWT and Firebase Authentication has been used along with Stripe (for online card payment), MongoDB, ES6, Node.Js, and React. There are Admin and user routes.</p>
+                        <p className='font-bold'>This is a full-stack web development site to book doctor's appointments.</p>
                         <div className="card-actions mt-3 justify-end">
                             <a href='https://auth-react-context-3b499.web.app/'>
-                                <button className="btn btn-primary">Live Site</button></a>
-                            <Link to=''><button className='btn btn-primary'> See Details</button></Link>
+                                <PrimaryButton>Live Site</PrimaryButton>
+                            </a>
+                            <Link to=''><PrimaryButton>See Details</PrimaryButton></Link>
                         </div>
                     </div>
                 </div>
                 <div className="card card-compact border text-white bg-[#15213a] aos-init aos-animate" data-aos='fade-down-left'>
-                    <figure><img src={heart} alt="car" className='h-[250px] w-full' /></figure>
+                    <figure><img src={heart} alt="car" className='h-[250px] w-full transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-75' /></figure>
                     <div className="card-body text-justify">
                         <h2 className="card-title text-2xl">Dr. Shihan Mostafizur</h2>
-                        <p className='font-bold'>This is a full-stack project where MongoDB, ES6, React, Node.js, JWT, and Firebase Authentication are used. After registration, a user will be able to add, modify, and remove a review to any service he has taken.</p>
+                        <p className='font-bold'>This is a full-stack doctor's website that provides different services and takes customer reviews.</p>
                         <div className="card-actions mt-3 justify-end">
                             <a href='https://dr-shihan-mostafizur.web.app/'>
-                                <button className="btn btn-primary">Live Site</button></a>
-                            <Link to=''><button className='btn btn-primary'> See Details</button></Link>
+                                <PrimaryButton>Live Site</PrimaryButton></a>
+                            <Link to=''><PrimaryButton>See Details</PrimaryButton></Link>
                         </div>
                     </div>
                 </div>
                 <div className="card card-compact border text-white bg-[#15213a] aos-init aos-animate" data-aos='fade-left'>
-                    <figure><img src={cover} alt="car" className='h-[250px] w-full' /></figure>
+                    <figure><img src={cover} alt="car" className='h-[250px] w-full transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-75' /></figure>
                     <div className="card-body text-justify">
                         <h2 className="card-title text-2xl">EdTech</h2>
-                        <p className='font-bold'>This is a front-end development projects with different courses and sections designed with Bootstrap.</p>
+                        <p className='font-bold'>This is a Bootstrap-designed front-end development project with different sections.</p>
                         <div className="card-actions mt-3 justify-end">
                             <a href='https://edtechweb.netlify.app/'>
-                                <button className="btn btn-primary">Live Site</button></a>
-                            <Link to=''><button className='btn btn-primary'> See Details</button></Link>
+                                <PrimaryButton>Live Site</PrimaryButton></a>
+                            <Link to=''><PrimaryButton>See Details</PrimaryButton></Link>
                         </div>
                     </div>
                 </div>
                 <div className="card card-compact border text-white bg-[#15213a] aos-init aos-animate" data-aos='fade-right'>
-                    <figure><img src={download} alt="car" className='h-[250px] w-full' /></figure>
+                    <figure><img src={download} alt="car" className='h-[250px] w-full transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-75' /></figure>
                     <div className="card-body text-justify">
                         <h2 className="card-title text-2xl">WD Basics</h2>
-                        <p className='font-bold'>This is a front-end project made with React and JavaScript.</p>
+                        <p className='font-bold'>This is React and JavaScript-made front-end project that has quizzes for different subjects.</p>
                         <div className="card-actions mt-3 justify-end">
                             <a href='https://wd-basics.netlify.app/'>
-                                <button className="btn btn-primary">Live Site</button></a>
-                            <Link to=''><button className='btn btn-primary'> See Details</button></Link>
+                                <PrimaryButton>Live Site</PrimaryButton></a>
+                            <Link to=''><PrimaryButton>See Details</PrimaryButton></Link>
                         </div>
                     </div>
                 </div>
                 <div className="card card-compact border text-white bg-[#15213a] aos-init aos-animate" data-aos='fade-down-left'>
-                    <figure><img src={typing} alt="car" className='h-[250px] w-full' /></figure>
+                    <figure><img src={typing} alt="car" className='h-[250px] w-full transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-75' /></figure>
                     <div className="card-body text-justify">
                         <h2 className="card-title text-2xl">Speed Typer1</h2>
-                        <p className='font-bold'>This is a debugging project wsing JavaScript.</p>
+                        <p className='font-bold'>This is a debugging project using JavaScript.</p>
                         <div className="card-actions mt-3 justify-end">
                             <a href='https://speedtyper1.netlify.app/'>
-                                <button className="btn btn-primary">Live Site</button></a>
-                            <Link to=''><button className='btn btn-primary'> See Details</button></Link>
+                                <PrimaryButton>Live Site</PrimaryButton></a>
+                            <Link to=''><PrimaryButton>See Details</PrimaryButton></Link>
                         </div>
                     </div>
                 </div>
