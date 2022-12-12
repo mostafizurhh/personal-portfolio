@@ -2,7 +2,7 @@ import React from 'react';
 
 const Skills = () => {
     return (
-        <div className='py-10' id='skills'>
+        <div className='py-10 h-screen md:mx-4 lg:mx-8' id='skills'>
             <h2 className='font-bold text-4xl mb-3'>Technologies and Tools</h2>
             <div className='grid grid-cols-3 md:grid-cols-4 gap-4'>
                 <div className='aos-init aos-animate' data-aos='fade-up'>

@@ -10,10 +10,10 @@ import PrimaryButton from './PrimaryButton';
 
 const Projects = () => {
     return (
-        <div className='py-10' id='projects'>
+        <div className='py-10 h-2/5 md:h-2/6 lg:h-screen md:mx-4 lg:mx-8' id='projects'>
             <h2 className='font-bold text-4xl mb-5'>My Projects</h2>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4'>
-                <div className="card card-compact border text-white bg-[#15213a] aos-init aos-animate" data-aos='fade-up'>
+                <div className="card card-compact h-[400px] border text-white bg-[#15213a] aos-init aos-animate" data-aos='fade-up'>
                     <figure><img src={car} alt="car" className='h-[250px] w-full transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-75' /></figure>
                     <div className="card-body text-justify">
                         <h2 className="card-title text-2xl">Simora Motors</h2>
@@ -26,7 +26,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card card-compact border text-white bg-[#15213a] aos-init aos-animate" data-aos='fade-down-right'>
+                <div className="card card-compact h-[400px] border text-white bg-[#15213a] aos-init aos-animate" data-aos='fade-down-right'>
                     <figure><img src={dental} alt="car" className='h-[250px] w-full transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-75' /></figure>
                     <div className="card-body text-justify">
                         <h2 className="card-title text-2xl">Simora Dental</h2>
@@ -39,7 +39,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card card-compact border text-white bg-[#15213a] aos-init aos-animate" data-aos='fade-down-left'>
+                <div className="card card-compact h-[400px] border text-white bg-[#15213a] aos-init aos-animate" data-aos='fade-down-left'>
                     <figure><img src={heart} alt="car" className='h-[250px] w-full transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-75' /></figure>
                     <div className="card-body text-justify">
                         <h2 className="card-title text-2xl">Dr. Shihan Mostafizur</h2>
@@ -51,11 +51,11 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card card-compact border text-white bg-[#15213a] aos-init aos-animate" data-aos='fade-left'>
+                <div className="card border h-[400px] text-white bg-[#15213a] aos-init aos-animate" data-aos='fade-left'>
                     <figure><img src={cover} alt="car" className='h-[250px] w-full transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-75' /></figure>
                     <div className="card-body text-justify">
                         <h2 className="card-title text-2xl">EdTech</h2>
-                        <p className='font-bold'>This is a Bootstrap-designed front-end development project with different sections.</p>
+                        <p className='font-bold'>This is a responsive Bootstrap-designed front-end development project with different sections.</p>
                         <div className="card-actions mt-3 justify-end">
                             <a href='https://edtechweb.netlify.app/'>
                                 <PrimaryButton>Live Site</PrimaryButton></a>
@@ -63,7 +63,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card card-compact border text-white bg-[#15213a] aos-init aos-animate" data-aos='fade-right'>
+                <div className="card card-compact h-[400px] border text-white bg-[#15213a] aos-init aos-animate" data-aos='fade-right'>
                     <figure><img src={download} alt="car" className='h-[250px] w-full transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-75' /></figure>
                     <div className="card-body text-justify">
                         <h2 className="card-title text-2xl">WD Basics</h2>
@@ -75,7 +75,7 @@ const Projects = () => {
                         </div>
                     </div>
                 </div>
-                <div className="card card-compact border text-white bg-[#15213a] aos-init aos-animate" data-aos='fade-down-left'>
+                <div className="card card-compact h-[400px] border text-white bg-[#15213a] aos-init aos-animate" data-aos='fade-down-left'>
                     <figure><img src={typing} alt="car" className='h-[250px] w-full transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-75' /></figure>
                     <div className="card-body text-justify">
                         <h2 className="card-title text-2xl">Speed Typer1</h2>

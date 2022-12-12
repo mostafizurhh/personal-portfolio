@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <footer className=" py-10 footer footer-center text-white">
+        <footer className=" pt-10 pb-3 footer footer-center text-white">
             <div>
                 <p>Copyright © Syed Mostafizur Rahman - All right reserved </p>
                 <div className="flex mt-2">

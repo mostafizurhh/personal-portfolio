@@ -13,16 +13,17 @@ const Home = () => {
             <div className='bg-[#15213a] w-0 lg:w-60 lg:fixed lg:h-full'>
                 <Header></Header>
             </div>
-            <div className='col-span-6 lg:col-span-5 mx-4 lg:sticky lg:left-72'>
+            <div className='col-span-6 lg:col-span-5 mx-5 lg:sticky lg:left-72'>
                 <Banner></Banner>
-                <About></About>
                 <Skills></Skills>
                 <Projects></Projects>
                 <Blog></Blog>
+                <About></About>
                 <Footer></Footer>
             </div>
         </div>
     );
 };
-
+/* w-0 lg:w-60 lg:fixed lg:h-full */
+/* className='col-span-6 lg:col-span-5 mx-4 lg:sticky lg:left-72' */
 export default Home;
