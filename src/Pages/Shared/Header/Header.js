@@ -20,7 +20,7 @@ const Header = () => {
                 </ul>
             </div>
             <div className="hidden lg:flex">
-                <ul className="menu menu-vertical px-1">
+                <ul className="menu menu-vertical p-2">
                     <a href='#banner' className="text-xl font-bold">Syed Mostafizur Rahman</a>
                     <li><a href='#banner' className="hover:underline decoration-pink-500 decoration-wavy">Home</a></li>
                     <li><a href='#about' className="hover:underline decoration-pink-500 decoration-wavy">About</a></li>

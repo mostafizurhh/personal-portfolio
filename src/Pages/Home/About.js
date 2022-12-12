@@ -2,7 +2,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div className='py-10 bg-fixed text-justify aos-animate aos-init' data-aos="fade-right" id='about'>
+        <div className='py-10 text-justify aos-animate aos-init' data-aos="fade-right" id='about'>
             <h2 className='font-bold text-4xl mb-3'>About</h2>
             <p className='font-bold text-lg'>
                 I can develop a fully responsive website by using REST APIs, Firebase Authentication, JWT Authentication, Online Payment System, Vanilla CSS, JavaScript, React, MongoDB, and the most popular CSS frameworks like Tailwind CSS, and BootStrap.<br /> <br />
@@ -13,6 +13,5 @@ const About = () => {
     );
 };
 
-export default About;
-
 /* sticky top-0 h-screen bg-[#121B2F] */
+export default About;
