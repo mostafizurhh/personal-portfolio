@@ -22,7 +22,7 @@ const Projects = () => {
                             <a href='https://simora-motors-client.web.app/'>
                                 <PrimaryButton>Live Site</PrimaryButton>
                             </a>
-                            <Link to=''><PrimaryButton>See Details</PrimaryButton></Link>
+                            <Link to='/simoramotors'><PrimaryButton>See Details</PrimaryButton></Link>
                         </div>
                     </div>
                 </div>
