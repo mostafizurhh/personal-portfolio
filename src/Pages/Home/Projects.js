@@ -22,7 +22,7 @@ const Projects = () => {
                             <a href='https://simora-motors-client.web.app/'>
                                 <PrimaryButton>Live Site</PrimaryButton>
                             </a>
-                            <Link to='/simoramotors'><PrimaryButton>See Details</PrimaryButton></Link>
+                            {/* <Link to='/simoramotors'><PrimaryButton>See Details</PrimaryButton></Link> */}
                         </div>
                     </div>
                 </div>
@@ -35,7 +35,7 @@ const Projects = () => {
                             <a href='https://auth-react-context-3b499.web.app/'>
                                 <PrimaryButton>Live Site</PrimaryButton>
                             </a>
-                            <Link to=''><PrimaryButton>See Details</PrimaryButton></Link>
+                            {/* <Link to=''><PrimaryButton>See Details</PrimaryButton></Link> */}
                         </div>
                     </div>
                 </div>
@@ -47,7 +47,7 @@ const Projects = () => {
                         <div className="card-actions mt-3 justify-end">
                             <a href='https://dr-shihan-mostafizur.web.app/'>
                                 <PrimaryButton>Live Site</PrimaryButton></a>
-                            <Link to=''><PrimaryButton>See Details</PrimaryButton></Link>
+                            {/* <Link to=''><PrimaryButton>See Details</PrimaryButton></Link> */}
                         </div>
                     </div>
                 </div>
@@ -59,7 +59,7 @@ const Projects = () => {
                         <div className="card-actions mt-3 justify-end">
                             <a href='https://edtechweb.netlify.app/'>
                                 <PrimaryButton>Live Site</PrimaryButton></a>
-                            <Link to=''><PrimaryButton>See Details</PrimaryButton></Link>
+                            {/* <Link to=''><PrimaryButton>See Details</PrimaryButton></Link> */}
                         </div>
                     </div>
                 </div>
@@ -71,7 +71,7 @@ const Projects = () => {
                         <div className="card-actions mt-3 justify-end">
                             <a href='https://wd-basics.netlify.app/'>
                                 <PrimaryButton>Live Site</PrimaryButton></a>
-                            <Link to=''><PrimaryButton>See Details</PrimaryButton></Link>
+                            {/* <Link to=''><PrimaryButton>See Details</PrimaryButton></Link> */}
                         </div>
                     </div>
                 </div>
@@ -83,7 +83,7 @@ const Projects = () => {
                         <div className="card-actions mt-3 justify-end">
                             <a href='https://speedtyper1.netlify.app/'>
                                 <PrimaryButton>Live Site</PrimaryButton></a>
-                            <Link to=''><PrimaryButton>See Details</PrimaryButton></Link>
+                            {/* <Link to=''><PrimaryButton>See Details</PrimaryButton></Link> */}
                         </div>
                     </div>
                 </div>
